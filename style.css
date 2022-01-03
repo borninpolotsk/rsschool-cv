@@ -1,3 +1,119 @@
-.p {
-    font-family: Arial, Helvetica, sans-serif;
+body {
+       font-family: Arial, Helvetica, sans-serif;
+       background-color: rgb(0, 0, 0);
+       margin: 0;
+}
+
+.cv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    }
+
+.headerall {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.header1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    }
+
+.photo {
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+.header2 {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 70%;
+    background-color: rgb(192, 192, 192);
+}
+
+.title_inf {
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(255, 251, 0);
+    margin-top: 20px;
+}
+
+.title_inf h1 {
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.title_inf h2 {
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    background-color: rgb(255, 251, 0);
+}
+
+.nav a {
+    padding: 10px;
+    margin: 10px;
+    border: rgb(192, 192, 192) solid 1px;
+    background-color: rgb(255, 251, 0);
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+    background-color: crimson;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column; 
+    width: 30%;
+    background-color: rgb(192, 192, 192);
+}
+
+.aside h3 {
+padding: 0 10px;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column; 
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+}
+
+.main_info h3 {
+padding: 0 10px;
+}
+
+.main_info p {
+padding: 0 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+    background-color: rgb(255, 251, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
 }
